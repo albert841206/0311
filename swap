@@ -1,0 +1,14 @@
+int main() {
+	int a=3; // 初值任意自選
+	int b=5; // 初值任意自選
+// 程式中只有這兩個變數
+
+	b=b+a;
+	a=b-a;
+	b=b-a;
+
+
+	printf("%d %d\n",a,b); // 將會輸出 5 3
+	system("PAUSE");
+	return 0;
+}
